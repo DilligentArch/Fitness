@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: "Inter", sans-serif;
     padding: 0;
@@ -63,7 +66,7 @@ body {
 }
 
 .ban1 {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     margin: 0 12.5rem;
     margin-top: 12rem;
 
@@ -110,14 +113,14 @@ body {
 
 .download {
     box-sizing: border-box;
-    border: 1px solid rgb(255, 255, 255);
+    border: 0.06rem solid rgb(255, 255, 255);
     border-radius: 2.5rem;
 
 }
 
 .five {
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 0.06rem solid rgba(255, 255, 255, 0.1);
     border-radius: .7rem;
     background-color: rgba(255, 255, 255, 0.1);
     /* display: inline; */
@@ -142,11 +145,11 @@ body {
 }
 
 .three {
-    border: 5px solid forestgreen;
+    /* border: 5px solid forestgreen; */
     padding-left: 2rem;
     width: 13rem;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 0.06rem solid rgba(255, 255, 255, 0.1);
     border-radius: .7rem;
 
     backdrop-filter: blur(20px);
@@ -156,7 +159,7 @@ body {
 .three>div {
     justify-content: center;
     align-items: center;
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
     padding-left: 1rem;
 }
 
@@ -232,7 +235,7 @@ body {
 
 
 /* reponsive */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
     .navi {
         display: none;
     }
@@ -243,6 +246,9 @@ body {
     .sec1-p2{
         flex-direction: column;
         /* border: 5px solid red; */
+    }
+    .ban1{
+        flex-direction: column;
     }
     .sec1-sub>h1,.sec1-sub>p{
         margin-left: 3.3rem;

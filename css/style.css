@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/*header*/
+/*navbar*/
+.navi {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 39px;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navi>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navi-content>li {
+    color: white;
+    padding: 0.5rem 1rem;
+
+}
+
+.head-section {
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.fitness {
+    /* border: 2px solid sandybrown; */
+    padding: .7rem;
+    font-size: 210%;
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+}
+
+#home {
+    background-color: rgb(230, 83, 60);
+    border-radius: 46px;
+}
+
+.ham-icon {
+    display: none;
+
+}
+
+.ban1 {
+    border: 5px solid red;
+    margin: 0 12.5rem;
+    margin-top: 12rem;
+
+}
+
+.ban1-part1-container {
+    /* border: 5px solid yellow; */
+    /* width: 70%; */
+    margin: 0 5rem;
+
+    margin-top: 10rem;
+
+}
+
+
+.ban1-part1-container>h1 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.ban1-part1-container>h1>span {
+    font-family: "Dancing Script", cursive;
+    font-size: 7rem;
+}
+
+.ban1-part1-container>p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 3rem;
+}
+
+
+.ban1-part1-container>h4 {
+    /* border: 5px solid antiquewhite; */
+    display: inline;
+    padding: 1rem 2.5rem;
+}
+
+.join {
+    border-radius: 2.5rem;
+    margin-right: 1rem;
+
+    background: rgb(230, 83, 60);
+}
+
+.download {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2.5rem;
+
+}
+
+.five {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: .7rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* display: inline; */
+    /* border: 2px solid green; */
+    /* padding: .5rem;*/
+    padding-left: 2rem;
+    width: 13rem;
+
+}
+
+.five>h3 {
+    font-weight: 900;
+    font-size: 2.3rem;
+    /* border: 2px solid aquamarine; */
+    margin-bottom: 1rem;
+
+}
+
+.five>p {
+    /* border: 2px solid yellowgreen; */
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.three {
+    border: 5px solid forestgreen;
+    padding-left: 2rem;
+    width: 13rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: .7rem;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+
+.three>div {
+    justify-content: center;
+    align-items: center;
+    border: 5px solid purple;
+    padding-left: 1rem;
+}
+
+.three>div>div {
+    /* border: 2px solid yellow; */
+
+    background: rgb(230, 83, 60);
+    width: 2.3rem;
+    height: 2.3rem;
+    /* display: inline; */
+    border-radius: 50%;
+    /* padding-top: 2rem; */
+}
+
+.three>div>h3 {
+    /* display: inline; */
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.three>p {
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.sec1 {
+    /* border: 2px solid blue; */
+    margin: 6rem 12rem 0rem 12rem;
+}
+
+.sec1-heading {
+    /* border: 5px solid aqua; */
+    margin: 0rem 11rem 0 11rem;
+    text-align: center;
+}
+
+.sec1-heading>h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.sec1-heading>p {
+    font-size: .87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.round>img {
+    border-radius: 50%;
+    /* border: 5px solid yellow; */
+}
+
+.sec1-sub>h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    /* border: 5px solid yellow; */
+    text-align: center;
+}
+
+.sec1-sub>p {
+    color: rgba(255, 255, 255, 0.5);
+     font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* reponsive */
+@media screen and (max-width: 430px) {
+    .navi {
+        display: none;
+    }
+
+    .ham-icon {
+        display: initial;
+    }
+    .sec1-p2{
+        flex-direction: column;
+        /* border: 5px solid red; */
+    }
+    .sec1-sub>h1,.sec1-sub>p{
+        margin-left: 3.3rem;
+        margin-right: 3.3rem;
+        /* border: 2px solid gold; */
+        
+    }
+}

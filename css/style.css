@@ -87,6 +87,7 @@ body {
     font-weight: 900;
     font-size: 4rem;
     margin-bottom: 2rem;
+    /* text-align: center; */
 }
 
 .ban1-part1-container>h1>span {
@@ -109,11 +110,12 @@ body {
 .join {
     border-radius: 2.5rem;
     margin-right: 1rem;
-    width: 10rem;
+    width: 12rem;
     height: 3.37rem;
     font-size: 1.1rem;
     font-weight: 600;
     background: rgb(230, 83, 60);
+    color: white;
 }
 
 .download {
@@ -151,20 +153,22 @@ body {
 }
 
 .five>h3 {
+    margin-top: .5rem;
     font-weight: 900;
     font-size: 2.3rem;
     /* border: 2px solid aquamarine; */
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 
 }
 
 .five>p {
     /* border: 2px solid yellowgreen; */
     color: rgba(255, 255, 255, 0.65);
+    margin-top: 0;
 }
 
 .three {
-    /* border: 5px solid forestgreen; */
+    border: 5px solid forestgreen;
     padding-left: 2rem;
     width: 13rem;
     box-sizing: border-box;
@@ -179,31 +183,45 @@ body {
 }
 
 .three>div {
-    justify-content: center;
-    align-items: center;
+    
     /* border: 5px solid purple; */
     padding-left: 1rem;
-}
+    position: relative;
 
-.three>div>div {
-    /* border: 2px solid yellow; */
+}
+.circle1{
+    position: relative;
+}
+ .circle2 {
+    /* border: 2px solid yellow;  */
 
     background: rgb(230, 83, 60);
-    width: 2.3rem;
-    height: 2.3rem;
-    /* display: inline; */
+    width: 2rem;
+    height: 2rem;
+    display: inline;
     border-radius: 50%;
-    /* padding-top: 2rem; */
-}
+     /* padding-top: 2rem;  */
+    position: absolute;
+    left: -1rem;
+    top: 1.5rem;
+} 
 
 .three>div>h3 {
     /* display: inline; */
     font-weight: 900;
     font-size: 2.3rem;
+    /* border: 2px solid khaki; */
+    margin-bottom:0;
+    margin-top: .5rem;
+    padding-left: .5rem;
+
 }
 
-.three>p {
+.three>div>p {
     color: rgba(239, 237, 232, 0.65);
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 0;
+    padding-left: .5rem;
 }
 
 .sec1 {
@@ -342,6 +360,185 @@ body {
 }
 
 
+.sec4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin-left: 5rem; */
+    border-radius: 1.1rem;
+    background: rgba(255, 255, 255, 0.1);
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 1.2rem 0 1.6rem 1.2rem; */
+    /* border: 5px solid seagreen; */
+    position: relative;
+    margin-top: 5rem;
+}
+
+.sec4>div {
+    /* border: 5px solid chocolate; */
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+}
+
+.sec4>div>img {
+    width: 20rem;
+    height: 17rem;
+    border-radius: 1.1rem;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.sec4>div>div {
+    position: absolute;
+
+}
+
+.tp1 {
+    bottom: 19rem;
+
+}
+
+.tp2 {
+    /* bottom: .1px; */
+    top: 32.5rem;
+}
+
+.tp1,
+.tp2 {
+    margin-left: .8rem;
+}
+
+.tp1>p,
+.tp2>p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.bmi-head {
+    /* border: 2px solid yellow; */
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.bmi-head>h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.bmi-head>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sec3 {
+    /* border: 2px solid blueviolet; */
+    width: 70%;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.form-bmi {
+    border-radius: .5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: .312rem;
+    margin: .312rem;
+    font-size: 1rem;
+
+}
+
+#form-s,
+#form-act {
+    border-radius: .5rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: .312rem;
+    margin: .312rem;
+}
+
+.sec3-part2 {
+    padding-left: 4rem;
+}
+
+.sec3-part2>p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2rem;
+
+
+}
+
+.sec3-part2>button {
+    margin-top: 3rem;
+}
+
+
+.sec3-part1 {
+    /* border: 2px solid red; */
+    width: 60%;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+.sec3-part1 h1 {
+
+    font-weight: 900;
+    margin-bottom: 3rem;
+
+}
+
+.sec3-table {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+
+
+}
+
+.sec3-table th {
+    padding: 0.9rem 1.8rem;
+}
+
+.sec3-table td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0.9rem 1.8rem;
+}
+
+.table-head td {
+
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+}
+
+.team {
+    width: 70%;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.team>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -378,6 +575,22 @@ body {
 
     .ban1-part1-container {
         width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .team {
+        /* border: 2px solid red; */
+        margin-left: 7rem;
+    }
+
+    .team>h1 {
+        font-size: 2.3rem;
+        font-weight: 900;
+    }
+
+    .team>p {
+        font-size: .9rem;
+        font-weight: 400;
     }
 
     .sec1-sub>h1,
@@ -390,7 +603,7 @@ body {
 
     .sec1-heading>h1,
     .sec1-heading>p {
-        border: 5px solid turquoise;
+        /* border: 5px solid turquoise; */
         /* padding-right: 10px; */
         text-align: center;
         /* font-size: 16px; */
@@ -432,8 +645,80 @@ body {
 
     #sec2-img-main {
         display: initial;
-         width: 290px; 
+        width: 290px;
         height: 12rem;
         margin-left: 0rem;
+        margin-bottom: 3rem;
     }
+
+    .sec4 {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 3.5rem;
+    }
+
+    .sec4>div {
+        margin-bottom: 1rem;
+    }
+
+    .tp1,
+    .tp2 {
+        bottom: 0;
+    }
+
+    .t1 {
+        top: 13rem;
+    }
+
+    .t2 {
+        top: 33rem;
+    }
+
+    .t3 {
+        top: 53rem;
+    }
+
+    .t4 {
+        top: 74rem;
+    }
+
+    .t5 {
+        top: 94rem;
+    }
+
+    .t6 {
+        top: 114rem;
+    }
+
+    .sec3 {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        /* border: 2px solid red; */
+        margin-left: 2rem;
+    }
+
+    .sec3-part2>button {
+        margin-bottom: 4rem;
+    }
+
+    .bmi-head {
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .sec3-part1 {
+        margin-left: 3rem;
+    }
+    .ban1-part2{
+        margin-left: 6rem;
+    }
+    .five{
+        top: 1rem;
+        left: 11.25rem;
+    }
+    .three{
+        bottom: 15rem;
+        
+    }
+    
 }

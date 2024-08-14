@@ -18,6 +18,10 @@ body {
 
 /*header*/
 /*navbar*/
+header{
+    background: linear-gradient(180deg, rgb(17, 17, 17)100%,rgba(254, 249, 249, 0.367) 100%);
+    /* width: auto; */
+}
 .navi {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 39px;
@@ -446,7 +450,8 @@ body {
     background: rgb(34, 34, 34);
     justify-content: center;
     /* align-items: center; */
-    border-radius: 1.2rem;
+    /* border-radius: 1.2rem; */
+    /* padding: .5%; */
 }
 .sec3-container{
     width: 80%;
@@ -695,6 +700,9 @@ iframe{
 
 /* reponsive */
 @media screen and (max-width: 431px) {
+    header{
+        background: black;
+    }
     .fitness {
         /* font-size: 2.81rem; */
         font-weight: 800;
@@ -865,7 +873,8 @@ iframe{
         width: 100%;
         margin: 0 auto;
         /* border: 2px solid red; */
-        margin-left: 3.5rem;
+        /* margin-left: 3.5rem; */
+        padding: 10.2%;
     }
     .sec3-container{
         width: 100%;
@@ -915,13 +924,15 @@ iframe{
         /* width: 31rem; */
         /* margin: 0 auto; */
         height: 55rem;
-        margin-left: 3rem;
-        border-radius: 1rem;
+        /* margin-left: 3rem; */
+        /* border-radius: 1rem; */
+        width: 100%;
+        padding: 10.3%;
     }
 
     .fitnes {
         margin-top: 2rem;
-        margin-left: .5rem;
+        /* margin-left: .5rem; */
     }
 
     /* .head-section{

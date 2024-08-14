@@ -886,6 +886,9 @@ iframe{
     #form-act{
         width: 13.125rem;
     }
+    .sec3-part2{
+        margin-left: 1.5rem;
+    }
 
     .sec3-part2>button {
         margin-bottom: 4rem;

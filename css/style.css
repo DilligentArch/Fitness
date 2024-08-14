@@ -50,7 +50,7 @@ body {
 .fitness {
     /* border: 2px solid sandybrown; */
     padding: .7rem;
-    font-size: 210%;
+    font-size: 2.81rem;
     color: rgb(230, 83, 60);
     font-weight: 800;
 }
@@ -183,16 +183,18 @@ body {
 }
 
 .three>div {
-    
+
     /* border: 5px solid purple; */
     padding-left: 1rem;
     position: relative;
 
 }
-.circle1{
+
+.circle1 {
     position: relative;
 }
- .circle2 {
+
+.circle2 {
     /* border: 2px solid yellow;  */
 
     background: rgb(230, 83, 60);
@@ -200,18 +202,18 @@ body {
     height: 2rem;
     display: inline;
     border-radius: 50%;
-     /* padding-top: 2rem;  */
+    /* padding-top: 2rem;  */
     position: absolute;
     left: -1rem;
     top: 1.5rem;
-} 
+}
 
 .three>div>h3 {
     /* display: inline; */
     font-weight: 900;
     font-size: 2.3rem;
     /* border: 2px solid khaki; */
-    margin-bottom:0;
+    margin-bottom: 0;
     margin-top: .5rem;
     padding-left: .5rem;
 
@@ -316,6 +318,7 @@ body {
     justify-content: space-around;
     border-radius: 1.12rem;
     background: rgb(34, 34, 34);
+
 }
 
 .sec2-p1 {
@@ -372,12 +375,15 @@ body {
     /* border: 5px solid seagreen; */
     position: relative;
     margin-top: 5rem;
+    padding-bottom: 2rem;
+    /* margin-left: 4rem; */
 }
 
 .sec4>div {
     /* border: 5px solid chocolate; */
     padding-left: 2rem;
     padding-top: 2rem;
+    /* padding-bottom: 2rem; */
 
 }
 
@@ -394,7 +400,7 @@ body {
 }
 
 .tp1 {
-    bottom: 19rem;
+    bottom: 21rem;
 
 }
 
@@ -532,6 +538,129 @@ body {
     font-weight: 400;
 }
 
+footer {
+    /* border: 5px solid red; */
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 4rem;
+    height: 25rem;
+
+
+}
+
+.f1 {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ff {
+    width: 20%;
+}
+
+.fitnes {
+    margin-top: 0;
+    /* border: 2px solid blue; */
+}
+
+.fitnes>h1 {
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+.fitnes>p {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    /* letter-spacing: 0.3px; */
+    line-height: 1.3rem;
+}
+
+.service {
+    /* border: 5px solid yellow; */
+}
+
+.service>h3,
+.platform>h3 {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.service>ul,
+.platform>ul {
+    list-style-type: none;
+}
+
+.service>ul>li,
+.platform>ul>li {
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.f2 {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    /* border: 2px solid gold; */
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.empty{
+    width: 70%;
+    /* height: 1px; */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.sec5{
+    /* border: 2px solid firebrick; */
+    margin-bottom: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1.2rem;
+}
+.sec5>h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 6rem;
+    /* border: 2px solid red; */
+    padding-top: 2rem;
+}
+.sec5-part1{
+    width: 40%;
+    /* border: 2px solid darkblue; */
+}
+.sec5-container{
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.sec5-part1>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.sec5-part1>h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
 
 
 
@@ -544,12 +673,22 @@ body {
 
 /* reponsive */
 @media screen and (max-width: 431px) {
+    .fitness {
+        /* font-size: 2.81rem; */
+        font-weight: 800;
+    }
+
     .navi {
         display: none;
     }
 
     .ham-icon {
         display: initial;
+
+    }
+
+    .ham-icon>img {
+        margin-left: 17rem;
     }
 
     .sec1-p2 {
@@ -566,7 +705,7 @@ body {
         align-items: center;
         width: 90%;
         margin: 0 auto;
-        margin-left: 3rem;
+        margin-left: 5.5rem;
     }
 
     .ban1 {
@@ -576,6 +715,9 @@ body {
     .ban1-part1-container {
         width: 100%;
         margin-bottom: 3rem;
+    }
+    .ban1-part1-container>p{
+        font-size: 1.2rem;
     }
 
     .team {
@@ -589,7 +731,7 @@ body {
     }
 
     .team>p {
-        font-size: .9rem;
+        font-size: 1.2rem;
         font-weight: 400;
     }
 
@@ -620,6 +762,11 @@ body {
 
 
     }
+    .bmi-head{
+        margin-left: 7rem;
+        /* border: 2px solid violet; */
+        padding-left: 2rem;
+    }
 
     .sec2 {
         width: 100%;
@@ -627,7 +774,7 @@ body {
         margin: 0;
         justify-content: center;
         align-items: center;
-        margin-left: 2.5rem;
+        margin-left: 4rem;
     }
 
     .sec2-p1>p {
@@ -653,11 +800,13 @@ body {
 
     .sec4 {
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 3.5rem;
+        margin-left: 5rem;
+
     }
 
     .sec4>div {
         margin-bottom: 1rem;
+
     }
 
     .tp1,
@@ -694,7 +843,7 @@ body {
         width: 100%;
         margin: 0 auto;
         /* border: 2px solid red; */
-        margin-left: 2rem;
+        margin-left: 3.5rem;
     }
 
     .sec3-part2>button {
@@ -709,16 +858,61 @@ body {
     .sec3-part1 {
         margin-left: 3rem;
     }
-    .ban1-part2{
+
+    .ban1-part2 {
         margin-left: 6rem;
     }
-    .five{
+
+    .five {
         top: 1rem;
         left: 11.25rem;
     }
-    .three{
+
+    .three {
         bottom: 15rem;
-        
+
     }
-    
+
+    .f1 {
+        flex-direction: column;
+    }
+
+    .ff {
+        width: 100%;
+    }
+
+    footer {
+        /* margin: 3rem; */
+        width: 31rem;
+        /* margin: 0 auto; */
+        height: 55rem;
+        margin-left: 2rem;
+    }
+
+    .fitnes {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    /* .head-section{
+        justify-content: space-between;
+    } */
+     .sec5{
+        width: 100%;
+        margin-left:4rem ;
+     }
+    .sec5-container{
+        flex-direction: column;
+    }
+    .sec5-part1{
+        width: 100%;
+    }
+    iframe{
+        width: 25rem;
+        margin-left: .7rem;
+    }
+    .sec5-part1{
+        margin-left: .6rem;
+    }
+
 }
